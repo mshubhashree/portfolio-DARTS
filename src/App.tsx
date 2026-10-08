@@ -6,6 +6,7 @@ import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { Experience } from './components/Experience';
 import { Testimonials } from './components/Testimonials';
+import { MessageBox } from './components/MessageBox';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 
@@ -23,7 +24,7 @@ export function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['hero', 'about', 'skills', 'projects', 'experience', 'testimonials', 'contact'];
+      const sections = ['hero', 'about', 'skills', 'projects', 'experience', 'testimonials', 'messages', 'contact'];
       const scrollY = window.scrollY;
 
       for (const section of sections) {
@@ -53,6 +54,7 @@ export function App() {
         <Projects />
         <Experience />
         <Testimonials />
+        <MessageBox />
         <Contact />
       </main>
       <Footer />

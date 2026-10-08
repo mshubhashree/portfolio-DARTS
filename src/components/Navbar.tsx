@@ -17,6 +17,7 @@ export const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme, activeSectio
     { name: 'Projects', href: '#projects' },
     { name: 'Experience', href: '#experience' },
     { name: 'Reviews', href: '#testimonials' },
+    { name: 'Messages', href: '#messages' },
     { name: 'Contact', href: '#contact' },
   ];
 
